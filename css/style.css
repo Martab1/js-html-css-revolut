@@ -26,6 +26,7 @@ body{
     font-size: 16px;
 }
 
+
 /* HEADER */
 .main-header {
     padding: 40px;
@@ -66,6 +67,6 @@ body{
     opacity: 0.8 ;
  }
 
- .btn.sign:hover{
-  background-color: rgb(233, 230, 230);
+.btn.sign:hover{
+ background-color: rgb(233, 230, 230);
  }
