@@ -6,20 +6,37 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Roboto,  sans-serif;
+}
 
+/* utilities  */
 
+.flex{
+    display: flex;
+}
 
+/* HEADER */
 .main-header {
     padding: 40px;
-    background-color: gray;
+    background-color:lightcyan;
 }
 
-
-.left-side ul{
-    display: inline-flex;
-}
-
-.left-side ul li{
+.main-header ul li{
     padding: 0 20px;
     list-style: none;
 }
+
+.main-header a{
+    cursor: pointer;
+    text-decoration: none;
+    color: gray;
+}
+
+.space{
+    flex-grow: 1;
+}
+
+/* SIDE */
+
+
