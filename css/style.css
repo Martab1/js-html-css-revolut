@@ -8,6 +8,7 @@
 
 body{
     font-family: Roboto,  sans-serif;
+    font-size: 17px;
 }
 
 /* utilities  */
@@ -40,7 +41,9 @@ body{
 .main-header a{
     cursor: pointer;
     text-decoration: none;
-    color: gray;
+    color: rgb(139, 149, 158);
+    font-weight: 300;
+    
 }
 
 .main-header a:hover{
@@ -51,7 +54,7 @@ body{
     flex-grow: 1;
 }
 
-/* BTN */
+/* BUTTON */
 
 .btn.sign{
     margin-left: 25px;
@@ -68,5 +71,36 @@ body{
  }
 
 .btn.sign:hover{
- background-color: rgb(233, 230, 230);
+    background-color: rgb(233, 230, 230);
  }
+
+
+
+ /* DROPDOWN MENU */
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    display: none; /* JS */
+    position: absolute;
+    top: 80%;
+    left:0;
+    width:180px;
+    padding: 20px 0;
+    filter:drop-shadow(0 0 5px rgba(0,0,0, .1));
+    background:#fff;
+    border-radius: 6px;
+    
+}
+
+.dropdown-menu li:not(:last-child){
+    margin-bottom: 35px;
+ }
+
+
+
+.active{
+    display: block;
+}
