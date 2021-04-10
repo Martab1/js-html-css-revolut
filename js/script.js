@@ -11,7 +11,7 @@ var dropdownMenu = dropDown.children(".dropdown-menu");
 var dropDownLinks = dropDown.children("a");
 
 
-// click (mostrare e nascondere il menu associato)
+// CLICK (mostrare e nascondere il menu associato)
 dropDownLinks.click( function(){
 
    // quando clicco su una a prendo il dropdown associato 
@@ -22,6 +22,15 @@ dropDownLinks.click( function(){
 
    // show/hide ad ogni click
    activeMenu.toggle();
+
+
+
+   // underline
+   var underline = $(this).addClass("underline");
+   // reset
+   dropDownLinks.not(underline).removeClass("underline");
+
+   
 
 });
 

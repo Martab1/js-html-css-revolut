@@ -88,7 +88,7 @@ body{
  /* DROPDOWN MENU */
 
 .dropdown-menu{
-    display:none;
+    display:none;   /* js */
     position: absolute;
     top: 80%;
     left:0;
@@ -154,3 +154,11 @@ body{
      right:70px;
  }
 
+
+
+/* js */
+
+ .underline{
+     padding:5px;
+     border-bottom: 2px solid rgb(197, 197, 197);
+ }
