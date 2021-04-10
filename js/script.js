@@ -1,6 +1,5 @@
 // console.log("jQuery", $);
 
-
 $(document).ready( function(){
 
     // DROPDOWN MENU
