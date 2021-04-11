@@ -11,6 +11,7 @@ var dropdownMenu = dropDown.children(".dropdown-menu");
 var dropDownLinks = dropDown.children("a");
 
 
+
 // CLICK (mostrare e nascondere il menu associato)
 dropDownLinks.click( function(){
 
@@ -24,20 +25,41 @@ dropDownLinks.click( function(){
    activeMenu.toggle();
 
 
-
    // underline
    var underline = $(this).addClass("underline");
    // reset
    dropDownLinks.not(underline).removeClass("underline");
 
    
-
 });
+    
+// al click sul doc chiudo menù
 
 
+// $(document).on('click', function(event) {
+//     if (!$(event.target).closest('.dropdown-menu').length) {
+//         $(this).next(".dropdown-menu").hide();
+//     }
+//   });
+
+
+
+
+// $('html').click(function() {
+//     // Hide the menus if visible
+//     $(this).next(".dropdown-menu").hide();
+//   });
+
+
+    
+
+// $('html').click(function() {
+//     activeMenu.hide(); 
+//  });
+
+ 
     // end doc ready
 });
-
 
 
 

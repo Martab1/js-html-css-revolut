@@ -40,7 +40,7 @@ body{
 
 /* HEADER */
  .main-header {
-    padding: 60px;
+    padding: 60px 120px;
 }
 
 .main-header ul li{
@@ -162,3 +162,70 @@ body{
      padding:5px;
      border-bottom: 2px solid rgb(197, 197, 197);
  }
+
+
+
+ /* MAIN */
+
+ /* hero */
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+ .hero h1{
+     font-size: 75px;
+ }
+
+ .hero p{
+    width:70%;
+    line-height: 25px;
+    margin-top: 40px;
+    color: rgb(139, 149, 158);
+    font-weight: 300;
+ }
+
+ .hero .text{
+     width:50%;
+     position: relative;
+     top:50px;
+ }
+
+ .hero form{
+    margin-top: 40px;
+}
+
+ input[type="text"],
+ select{
+     margin-right: 10px;
+     color:rgb(139, 149, 158); 
+     border:none;
+     border-bottom: 1px solid rgb(201, 199, 199); 
+     font-size: 18px;  
+ }
+
+.btn.get-started{
+    position: relative;
+    bottom: 5px;
+    margin-left: 10px;
+    padding: 18px 20px;
+    color:rgb(175, 175, 175);
+    background:rgb(75, 74, 74);
+}
+
+.hero p:last-child{
+    color:black;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.fa-clock{
+    margin-right: 15px;
+}
+
+
+.hero-image img{
+    margin-left: 80px;
+    width:470px;
+}
