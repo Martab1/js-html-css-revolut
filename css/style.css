@@ -88,6 +88,7 @@ body{
  /* DROPDOWN MENU */
 
 .dropdown-menu{
+    z-index: 1;
     display:none;   /* js */
     position: absolute;
     top: 80%;
@@ -224,8 +225,35 @@ body{
     margin-right: 15px;
 }
 
-
 .hero-image img{
     margin-left: 80px;
     width:470px;
 }
+
+ .fa-play{
+    font-size: 20px;
+    position:absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+}
+.play{
+    cursor: pointer;
+    position: relative;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    background:#fff;
+    position:absolute;
+    right: 35%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    filter:drop-shadow(0 0 5px rgba(0,0,0, .1));
+}
+
+.play:hover{
+    border: 2px solid rgba(172, 167, 167, 0.192);
+}
+
+
+

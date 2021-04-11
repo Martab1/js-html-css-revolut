@@ -9,7 +9,7 @@ $(document).ready( function(){
 var dropDown = $(".dropdown");
 var dropdownMenu = dropDown.children(".dropdown-menu");
 var dropDownLinks = dropDown.children("a");
-
+var number = $(".number");
 
 
 // CLICK (mostrare e nascondere il menu associato)
@@ -43,19 +43,17 @@ dropDownLinks.click( function(){
 //   });
 
 
-
-
 // $('html').click(function() {
 //     // Hide the menus if visible
 //     $(this).next(".dropdown-menu").hide();
 //   });
 
 
-    
-
 // $('html').click(function() {
 //     activeMenu.hide(); 
 //  });
+
+
 
  
     // end doc ready
